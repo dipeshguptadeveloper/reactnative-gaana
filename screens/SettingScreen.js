@@ -32,7 +32,7 @@ const SettingScreen = () => {
   }, []);
   return (
     <SafeAreaView className="bg-[#050a30fb]">
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View className="p-4">
           <View className=" flex-row justify-between">
             <TouchableOpacity onPress={() => navigation.navigate("Home")}>
